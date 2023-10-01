@@ -5,7 +5,6 @@ const Input = (props) => {
     <div className={classes.input}>
       <label>{props.label}</label>
       <input />
-      <p></p>
     </div>
   );
 };
