@@ -4,7 +4,7 @@ const Input = (props) => {
   return (
     <div className={classes.input}>
       <label>{props.label}</label>
-      <input />
+      <input placeholder="Enter"></input>
     </div>
   );
 };
